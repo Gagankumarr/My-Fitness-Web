@@ -21,6 +21,6 @@
     line-height: 32px;
 
 }
-/* .columntwo{
-    padding-right: 70px;
-} */
+.columntwo{
+    padding-right: inherit;
+}
