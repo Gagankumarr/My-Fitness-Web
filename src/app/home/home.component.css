@@ -1,4 +1,4 @@
-.imagetwo{
+.home_logo_mini{
     position: absolute;
     top: 80%;
     left: 70%;
@@ -8,11 +8,14 @@
     width: 68%;
     /* z-index: -99; */
 }           
-.imageone{
+.home_logo{
     margin-top: 80px;
     /* z-index: 0;   */
 }
-.pone{
+.span{
+    color: hsl(275, 41%, 48%);
+}
+.paragraph{
     margin-left:180px ;
     font-size: 26px;
     width: 50%;
