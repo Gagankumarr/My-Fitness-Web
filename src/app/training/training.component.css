@@ -6,21 +6,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Float four columns side by side */
 .column {
   float: left;
   width: 25%;
   padding: 0 10px ;
   margin-right: 50px;
 }
-.button5{
-  margin: 20px 0 0  554px ;
+.Explore_your_gym{
   border-radius: 60px;
   font-family: initial; 
   height: 50px;
   border-style: groove;
 }
-.button5:hover {
+.Explore_your_gym:hover {
   background-color: #231f2b;
   color: white;
   size: initial;
@@ -29,21 +27,21 @@ body {
   border-radius: 60px;
   font-family: initial;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  margin: 20px 0 0 554px;
   
   
 }
-.another{
+.container{
   background-color: #eeeeee;
   padding: 30px 0px 30px 20px ;
+  text-align: center;
 }
-.upp{
+.heading{
   margin-top: 100px;
   text-align: center;
   font-size: 60px;
   color: #333;;
 }
-.padd{
+.description{
   font-size: 20px;
   line-height: 28px;
   color: #333;;
@@ -65,15 +63,16 @@ body {
   display: table;
   clear: both;
 }
-.button1{
+.find_your_gym{
   margin: 50px 0 0  554px ;
   border-radius: 60px;
   font-family: initial; 
   height: 50px;
   border-style: groove;
+  padding: 10px 30px 10px 30px;
 
 }
-.button1:hover{
+.find_your_gym:hover{
   background-color: #231f2b;
   color: white;
   size: initial;
@@ -83,6 +82,7 @@ body {
   font-family: initial;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 50px 0 0 554px;
+  padding: 10px 30px 10px 30px;
   
 }
 
