@@ -1,119 +1,71 @@
-.divone{
-    margin-top: 80px;
-    opacity: 1;
-    
+ /* about css */
+.showcase{
+  position: relative;
+  z-index: 1;
 }
-.divtwo{
-    position: absolute;
-    top: 110%;
-    left: 67%;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-    height: 70%;
-    width: 68%;
-    color:white
+.showcase img{
+  width:100%;
+  height: auto;
+  max-height:90vh;
+  object-fit: fill;
 }
-.divthree{
-    position: absolute;
-    top: 125%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-    height: 70%;
-    width: 68%;
-    color:white;
-    font-size: 20px;
-    
+.showcase .overlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
 }
-.divfour{
-    position: absolute;
-    top: 135%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-    height: 70%;
-    width: 68%;
-    color:white;
-    font-size: 20px;
-    
-
+.caption{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  color: #fff;
 }
-.button1{
-    margin: 40px 0 0  554px ;
-    border-radius: 60px;
-    font-family: initial; 
-    height: 50px;
-    border-style: groove;
+.caption h1{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  font-family: 'Alegreya Sans SC', sans-serif;;
+}
+.caption p{
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500
+}
+.tour_a_gym{
+  border-radius: 60px;
+  padding: 10px 30px;
+  border: 1px solid #000;
+  outline: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+.tour_a_gym:hover{
+  background-color: #231f2b;
+  color: white;
+  size: initial;
+  border:1px solid #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   
-  }
-  .button1:hover{
-    background-color: #231f2b;
-    color: white;
-    size: initial;
-    border: black;
-    border-style: groove;
-    border-radius: 60px;
-    font-family: initial;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin: 40px 0 0 554px;
-    
-  }
-  .card {
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  */
-    /* box-sizing: content-box; */
-    text-align: center;
-    /* background-color: #f1f1f1; */
-    max-width: 100%;
-    height: 50%;
-    margin-left: 30px;
-    
-  }
-  
-  /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  .row {margin: 0 -5px;
-    padding-top: 130px;
-    padding-bottom: 30px;
-    margin: 0 10px 0 40px;
-    padding-left: 10px;
-  }
-  .column {
-    float: left;
-    width: 28%;
-    padding: 0 10px ;
-    margin-right: 50px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
- .button2{
-    margin: 40px 0 0  520px ;
-    border-radius: 60px;
-    font-family: initial; 
-    height: 50px;
-    border-style: groove;
- }
- .button2:hover{
-    background-color: #231f2b;
-    color: white;
-    size: initial;
-    border: black;
-    border-style: groove;
-    border-radius: 60px;
-    font-family: initial;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin: 40px 0 0 520px;
- }
-
- 
+}
+.box{
+  margin-bottom: 15px;
+}
+.box .imgb img {
+  height: 120px;
+  object-fit: fill;
+}
+.box .txtb h4 {
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+.box .txtb p {
+  font-size: 16px;
+  line-height: 30px;
+}
