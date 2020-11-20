@@ -20,6 +20,7 @@ import {HeaderComponent} from './header/header.component'
   declarations: [
     AppComponent,
     FooterComponent,
+    TermsconditionComponent,
     HomeComponent,
     TrainingComponent,
     ContactComponent,
@@ -27,10 +28,10 @@ import {HeaderComponent} from './header/header.component'
     AboutComponent,
     FAQComponent,
     FranchiseComponent,
-    TermsconditionComponent,
     FeedbackComponent,
     ContinuedopComponent,
-    LoginComponent
+    LoginComponent,
+    
   ],
   imports: [
     BrowserModule,
